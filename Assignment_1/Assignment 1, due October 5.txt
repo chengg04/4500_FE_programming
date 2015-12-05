@@ -1,0 +1,11 @@
+Assignment 1, due October 5
+
+Consider the following variant of the arbitrage detection problem. Here the interest rate that cash earns is scenario dependent. Namely, in each future scenario S there is a cash interest rate of r(S). 
+We will now say that a portfolio attains arbitrage if, in each scenario S, the portfolio attains a rate of growth greater than (1 + r(S)). Formally, if we denote by V(S) the value of the portfolio in future scenario S, and by V(0) the value of the portfolio today, then we have 
+      V(S) > (1 + r(S)) V_0.     (1) 
+Additionally, in this setting, we will require 
+      V_0 >= 1,       (2) 
+How would you formulate the arbitrage detection problem as an LP? 
+For this assignment, write a command-line program that reads price/scenario data, as well as the interest rates, and tests for arbitrage in this new sense. Make sure that the program works by running Gurobi from the command line, having it read your LP file and run the LP you generate. 
+
+Here is a sample data file.
