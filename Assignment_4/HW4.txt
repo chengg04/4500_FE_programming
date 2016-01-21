@@ -1,0 +1,9 @@
+  IEOR 4500 -- Portfolio optimization with limited number of names
+       Due December 7, 2015
+1.  Under Lecture 20 we have a .csv file with Russell 1000 data over two years.
+
+(a) Compute the average returns vector, and a principal components decomposition of the covariance matrix (you should reuse old code).  
+
+(b)  Solve the (long-only) portfolio optimization using the Gurobi callable library. You can adapt the code I posted under Lecture 21. You can assume that every asset can take up at most 2 % of the budget, i.e. x_j <= 0.02 for each j. You should experiment with different levels of risk aversion until the optimal portfolio has at least 200 names. Basically you need to scale up the residual variances and the diagonal "factor covariance" matrix by a common factor.
+
+(c)  For the level of risk aversion in (b), rerun the portfolio optimization problem using different limits on the number of names that are allowed to appear in the final portfolio, e.g. at most 150 names, at most 100 names, and so on. What happens to the optimal portfolio?

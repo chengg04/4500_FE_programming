@@ -1,0 +1,15 @@
+﻿Build started 2015/10/25 22:25:51.
+     1>Project "D:\1、文本\3、Master Education\E4500 Application Programming for FE\HW\Assignment_2\HW2\HW2\HW2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Visual Studio\VC\bin\CL.exe /c /ID:/programming_files/eigen580 /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test_all.cpp
+         test_all.cpp
+     1>d:\1、文本\3、master education\e4500 application programming for fe\hw\assignment_2\hw2\hw2\test_all.cpp(12): warning C4005: 'min' : macro redefinition
+                 c:\program files\windows kits\8.1\include\shared\minwindef.h(197) : see previous definition of 'min'
+       Link:
+         E:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\1、文本\3、Master Education\E4500 Application Programming for FE\HW\Assignment_2\HW2\Debug\HW2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\1、文本\3、Master Education\E4500 Application Programming for FE\HW\Assignment_2\HW2\Debug\HW2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\1、文本\3、Master Education\E4500 Application Programming for FE\HW\Assignment_2\HW2\Debug\HW2.lib" /MACHINE:X86 Debug\test_all.obj
+         HW2.vcxproj -> D:\1、文本\3、Master Education\E4500 Application Programming for FE\HW\Assignment_2\HW2\Debug\HW2.exe
+     1>Done Building Project "D:\1、文本\3、Master Education\E4500 Application Programming for FE\HW\Assignment_2\HW2\HW2\HW2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.38

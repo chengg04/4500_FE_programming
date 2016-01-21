@@ -1,0 +1,7 @@
+LIBRARY HW3
+
+EXPORTS  
+
+factDecomp @1
+
+

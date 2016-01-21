@@ -1,0 +1,8 @@
+IEOR 4500 -- Homework assignment 2
+       Due October 22, 2015
+
+Write a C program that implements the simple QP algorithm we saw in class.  The program should read a file containing all problem data, in any format, so long as that format is easy to explain. 
+
+Here, by "problem data" we mean: n (number of assets), the covariance matrix Q, the mean asset return vector mu, the upper and lower bounds u_j and l_j (for each asset j) and the parameter lambda. 
+
+Make sure that your C program has the following structure: one file for "main" plus a separate function for reading in the data, and another file for the numerical algorithm. The numerical algorithm will be passed all data, plus a vector of length n (= number of assets) and upon return this vector will have the portfolio computed by the algorithm.   

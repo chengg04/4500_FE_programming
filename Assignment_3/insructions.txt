@@ -1,0 +1,12 @@
+IEOR 4500 -- Computing a factor decomposition
+       Due November 6, 2015
+1.  Write a C or C++ DLL with the following functionality:
+
+(a) The DLL exports a single function.  The function takes three arguments:  an integer n, an integer T, and a double precision array price. Here, price is a time series of  stock prices of n stocks over T days; so this is an array with nT entries.  
+
+(b)  The DLL first computes the covariance matrix Q of the returns of the n assets.
+
+(c)  Second, the DLL uses the power method to approximate the principal components decomposition of the covariance matrix, using ten factors.  The output of this process will be the 10x10 diagonal matrix F, plus the nx10 matrix V,  plus a diagonal matrix D, so that approximately we have Q = D + VFVT. It is up to you to determine when the method is to be terminated.  
+
+
+2.     Under Lecture 11 we have uploaded a comma-separated file that contains stock prices for 1000 stocks over 250 days.   Add to the spreadsheet a button.  When the user clicks on this button, the DLL above gets called, and the time series in the spreadsheet is passed (along with the number of stocks and days); the resulting matrices V, F and D are output on a separate worksheet. 
